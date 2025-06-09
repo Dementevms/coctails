@@ -21,7 +21,7 @@ export const Aside: FC = () => {
       {data.map((item) => {
         return (
           <div
-            className={classNames({
+            className={classNames(styles.item, {
               [styles.selected]: params.code === item.value,
             })}
             onClick={handleSetCalick(item.value)}

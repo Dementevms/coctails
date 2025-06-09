@@ -57,7 +57,7 @@ export const Cocktails: FC = () => {
             </div>
             <div className={styles.itemRightSide}>
               <div className={styles.image}>
-                <img src={cocktail.strDrinkThumb} alt={cocktail.strDrink} />
+                <img src={cocktail.strDrinkThumb} alt={cocktail.strDrink} loading="lazy" />
               </div>
             </div>
           </div>
