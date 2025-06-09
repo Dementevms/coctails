@@ -1,0 +1,12 @@
+.root {
+  display: flex;
+  box-sizing: border-box;
+  gap: 36px;
+  padding: 36px;
+}
+
+@media screen and (max-width: 720px) {
+  .root {
+    display: block;
+  }
+}

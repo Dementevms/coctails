@@ -1,0 +1,19 @@
+.root {
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+  box-sizing: border-box;
+  background-color: #fff;
+  padding: 16px;
+  width: 320px;
+}
+
+.selected {
+  color: red;
+}
+
+@media screen and (max-width: 720px) {
+  .root {
+    width: 100%;
+  }
+}
